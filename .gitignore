@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Internal Documentation & Study Notes
+understand.md
+detailed.md
+
+# Raw Data & Source PDFs (not needed for runtime)
+data/raw/
+*.pdf
+
+# Data & Models cache
+*.bin
+*.pkl
+*.joblib
+!models/*.joblib
+!models/similarity_index/*.bin
+!models/similarity_index/*.pkl
+!vector_store/faiss/*.bin
+!vector_store/faiss/*.pkl
+
+# SQLite temporary files
+*.db-journal
+*.sqlite-journal
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & IDE
+.env
+*.env
+.vscode/
+.idea/
+.DS_Store
+
+# Scratch
+scratch/
+project_prompt.txt
